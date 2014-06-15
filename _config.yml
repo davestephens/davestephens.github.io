@@ -1,10 +1,20 @@
 # Site settings
 title: David Stephens
 email: hello@davidstephens.uk
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: 'Technologist living in London.'
 baseurl: ""
 url: "http://davidstephens.uk"
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+
+author:
+  name:           'David Stephens'
+  url:            http://www.davidstephens.uk
+
+paginate:         5
+
+# Custom vars
+version:          2.0.0
