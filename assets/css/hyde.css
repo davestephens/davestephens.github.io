@@ -75,6 +75,13 @@ html {
   color: #fff;
 }
 
+/* Sidebar Mugshot */
+.sidebar-mugshot img {
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+
 /* About section */
 .sidebar-about h1 {
   color: #fff;
