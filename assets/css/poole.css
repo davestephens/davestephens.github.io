@@ -351,6 +351,23 @@ tbody tr:nth-child(odd) th {
 }
 
 
+/* Posts Index */
+ul.posts {
+    padding-left: 0px;
+}
+
+ul.posts li {
+  list-style: none;
+}
+
+ul.posts li span.post-date {
+  color: #888888;
+  float: right;
+    padding-top: 10px;
+}
+
+
+
 /*
  * Pagination
  *
