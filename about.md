@@ -16,10 +16,13 @@ You can also find me on a variety of other places across the t'interwebs:
 * [Twitter][twitter] - Random ramblings
 * [Instagram][instagram] - Short stories via photo snapshots
 * [GitHub][github] - Not a great deal here, although I was responsible for the pilot of GitHub Enterprise at my current place of work
+* [StackOverflow][stackoverflow] - Dev Q&A, mostly Ruby/Rails or DevOps related stuff.
 * [Last.fm][lastfm] - Rock 'n roll
+
 
 [github]:    http://www.github.com/DaveStephens
 [instagram]:    http://www.instagram.com/ripuk
 [twitter]:    https://www.twitter.com/DaveStephens
 [linkedin]:    http://uk.linkedin.com/in/davidjstephens/
 [lastfm]: http://www.last.fm/user/ripuk
+[stackoverflow]: http://stackoverflow.com/users/425144/ripuk
