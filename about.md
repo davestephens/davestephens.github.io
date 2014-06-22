@@ -4,8 +4,22 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+My name is David Stephens, Stephens with a P-H. I'm an English technologist living in London, who has a love of bikes, computers, beer, 
+taking photos, drums, and adventure games by Sierra (Space Quest IV is a particular favourite). I also spend a fair amount of time smashing things 
+together in Ruby - that combined with Rubymine makes development fun.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+I've worked in the financial services industry most of my career, with companies such as Goldman Sachs and more recently Credit Suisse. You can 
+find out more about me professionally at [LinkedIn][linkedin].
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+You can also find me on a variety of other places across the t'interwebs:
+
+* [Twitter][twitter] - Random ramblings
+* [Instagram][instagram] - Short stories via photo snapshots
+* [GitHub][github] - Not a great deal here, although I was responsible for the pilot of GitHub Enterprise at my current place of work
+* [Last.fm][lastfm] - Rock 'n roll
+
+[github]:    http://www.github.com/DaveStephens
+[instagram]:    http://www.instagram.com/ripuk
+[twitter]:    https://www.twitter.com/DaveStephens
+[linkedin]:    http://uk.linkedin.com/in/davidjstephens/
+[lastfm]: http://www.last.fm/user/ripuk

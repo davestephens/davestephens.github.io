@@ -1,6 +1,6 @@
 # Site settings
 title: David Stephens
-email: hello@davidstephens.uk
+email: d@davidstephens.uk
 description: 'Technologist living in London.'
 baseurl: ""
 url: "http://davidstephens.uk"
@@ -9,12 +9,5 @@ url: "http://davidstephens.uk"
 markdown: kramdown
 permalink: pretty
 
-
-author:
-  name:           'David Stephens'
-  url:            http://www.davidstephens.uk
-
 paginate:         5
 
-# Custom vars
-version:          2.0.0
