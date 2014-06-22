@@ -6,7 +6,7 @@ permalink: /about/
 
 My name is David Stephens, Stephens with a P-H. I'm an English technologist living in London, who has a love of bikes, computers, beer, 
 taking photos, drums, and adventure games by Sierra (Space Quest IV is a particular favourite). I also spend a fair amount of time smashing things 
-together in Ruby - that combined with RubyMine makes hacking away on things a nice passtime. 
+together in Ruby - that combined with RubyMine makes hacking away on code a nice passtime. 
 
 I've worked in the financial services industry most of my career, with companies such as Goldman Sachs and more recently Credit Suisse. You can 
 find out more about me professionally at [LinkedIn][linkedin].
