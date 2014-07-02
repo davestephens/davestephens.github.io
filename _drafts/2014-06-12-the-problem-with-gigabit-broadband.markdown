@@ -11,13 +11,15 @@ After having issues with my previous broadband provider I'd forked out a fair am
 
 After Hyperoptic was switched on, I did what every tech geek would do and ran a speed test:
 
-Testing from Hyperoptic Ltd (154.58.86.210)...
+~~~
+Testing from Hyperoptic Ltd (154.xxx.xxx.xxx)...
 Selecting best server based on ping...
 Hosted by Vodafone UK (London) [0.96 km]: 26.941 ms
 Testing download speed........................................
 Download: 301.22 Mbits/s
 Testing upload speed..................................................
 Upload: 136.64 Mbits/s
+~~~
 
 Huh? After a bit of digging it became apparent that my (rather expensive) router was the bottleneck for my spangly new gigabit broadband. I'd always thought that my internet connection would always be the cap on everything, and now it was the hardware in my own LAN causing the problems! Again, as any tech geek would do - this now became "Mission Remove Bottlenecks".
 
