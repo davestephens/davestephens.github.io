@@ -1,24 +1,27 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2014-06-11 23:15:11
-categories: jekyll update
+title:  "Gigabit Broadband"
+date:   2014-07-02 23:15:11
+categories: tech
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+I'm lucky enough to live in an apartment complex in London's Docklands that's recently had [Hyperoptic][ho] installed. As I run the Residents' Association for my complex, and got into a bit of a Twitter conversation with their head of marketing (following them picking up on the fact that I was slagging off Sky Broadband!), I managed to set myself up to be their "Hyperoptic Champion" for my development. This essentially means that I help them to market their services to the residents, and in return I get their services for free. It got activated in the middle of May.
 
-Jekyll also offers powerful support for code snippets:
+After having issues with my previous broadband provider I'd forked out a fair amount of cash for a [Billion 7800DXL][billion], a router that allows you to modify pretty much any setting you could ever think of in order to get the maximum possible performance from your ADSL connection. One of the things that attracted me to this router was that it supported ADSL and a WAN connection (which is what Hyperoptic provide), so knowing that I'd be getting Hyperoptic at some point in the future I'd be reasonably 'futureproofed'. Wrong!
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+After Hyperoptic was switched on, I did what every tech geek would do and ran a speed test:
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+Testing from Hyperoptic Ltd (154.58.86.210)...
+Selecting best server based on ping...
+Hosted by Vodafone UK (London) [0.96 km]: 26.941 ms
+Testing download speed........................................
+Download: 301.22 Mbits/s
+Testing upload speed..................................................
+Upload: 136.64 Mbits/s
 
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll]:    http://jekyllrb.com
+Huh? After a bit of digging it became apparent that my (rather expensive) router was the bottleneck for my spangly new gigabit broadband. I'd always thought that my internet connection would always be the cap on everything, and now it was the hardware in my own LAN causing the problems! Again, as any tech geek would do - this now became "Mission Remove Bottlenecks".
+
+
+
+[ho]: http://www.hyperoptic.com
+[billion]: http://www.amazon.co.uk/gp/product/B00HDK4GAK/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00HDK4GAK&linkCode=as2&tag=slocooclu-21
