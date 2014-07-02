@@ -1,9 +1,14 @@
 # Site settings
 title: David Stephens
-email: d@davidstephens.uk
-description: 'Technologist living in London.'
-baseurl: ""
+tagline: 'English technologist living in London.'
+email: dave@davidstephens.uk
+description: 'Personal site of David Stephens, an English technologist living in London.'
+baseurl: /
 url: "http://davidstephens.uk"
+
+author:
+  name:           'David Stephens'
+  url:            https://twitter.com/davestephens
 
 # Build settings
 markdown: kramdown
