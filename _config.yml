@@ -3,7 +3,7 @@ title: David Stephens
 tagline: 'English technologist living in London.'
 email: dave@davidstephens.uk
 description: 'Personal site of David Stephens, an English technologist living in London.'
-baseurl: /
+baseurl: ""
 url: "http://davidstephens.uk"
 
 author:
