@@ -51,7 +51,7 @@ and Consul for service discovery.
 
 ## Credit Suisse - May 2011 - December 2014
 
-### AVP, Platform & DevOps Engineer, Equities Risk
+### AVP, Environment & Release Management, Equity Derivatives
 I managed the Release and Environment Management team at Credit Suisse, a team of eight, split across multiple 
 regions. The team is responsible for all software released into the Equity Derivatives division, the infrastructure
  that it runs on, and the infrastructure used to develop it.
