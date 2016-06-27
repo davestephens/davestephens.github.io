@@ -3,6 +3,7 @@ layout: post
 title:  "How To Cook Beer Can Chicken on a Two Burner Weber E-210 Grill"
 date:   2015-09-07 20:00
 categories: food
+visible: 0
 ---
 
 I'd had my eye on a 'proper' BBQ for a few years, but living in an apartment had absolutely nowhere to put it. Having
