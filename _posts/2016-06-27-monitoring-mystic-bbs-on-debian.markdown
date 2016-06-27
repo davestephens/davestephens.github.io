@@ -2,7 +2,6 @@
 layout: post
 title:  "Monitoring Mystic BBS on Debian"
 date:   2016-06-27 00:00
-categories: bbs
 ---
 I've recently got back into [running a BBS](/bbs) using an awesome piece of software called [Mystic](http://www.mysticbbs.com). 
 Whilst it seems incredibly stable out of the box, it can never hurt to have a little bit of monitoring around processes running on your system. With that in mind, I've knocked up an init.d script so that
