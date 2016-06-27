@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Monitoring Mystic BBS on Debian"
-date:   2016-06-27 20:00
+date:   2016-06-27 00:00
 categories: bbs
 ---
-I've recenntly got back into [running a BBS](/bbs) using an awesome piece of software called [Mystic](http://www.mysticbbs.com). 
+I've recently got back into [running a BBS](/bbs) using an awesome piece of software called [Mystic](http://www.mysticbbs.com). 
 Whilst it seems incredibly stable out of the box, it can never hurt to have a little bit of monitoring around processes running on your system. With that in mind, I've knocked up an init.d script so that
 Mystic will start and stop on boot/shutdown. Additionally, I've leveraged this script with [Monit](https://mmonit.com/monit/)
 to provide some process monitoring around Mystic should the worst happen and the process die. I like Monit for its simplicity - it doesn't require a central monitoring server, and will automatically restart processes based on defined triggers. It'll even send you an email when it does something should you want it to.
