@@ -4,9 +4,9 @@ title:  "Monitoring Mystic BBS on Debian"
 date:   2016-06-27 20:00
 categories: bbs
 ---
-I've recenntly got back into (running a BBS)[bbs] using an awesome piece of software called Mystic. 
+I've recenntly got back into [running a BBS](/bbs) using an awesome piece of software called [Mystic](http://www.mysticbbs.com). 
 Whilst it seems incredibly stable out of the box, it can never hurt to have a little bit of monitoring around processes running on your system. With that in mind, I've knocked up an init.d script so that
-Mystic will start and stop on boot/shutdown. Additionally, I've leveraged this script with (Monit)[monit]
+Mystic will start and stop on boot/shutdown. Additionally, I've leveraged this script with [Monit](https://mmonit.com/monit/)
 to provide some process monitoring around Mystic should the worst happen and the process die. I like Monit for its simplicity - it doesn't require a central monitoring server, and will automatically restart processes based on defined triggers. It'll even send you an email when it does something should you want it to.
 
 Let's get Mystic starting and stopping with the system startup/shutdown first, then we'll get Monit installed and monitoring the system, then finally we can configure Monit to keep an eye on Mystic.
@@ -114,7 +114,7 @@ You'll notice that the output looks similar to before, along with an all new Mys
       port response time 	0.006s to 127.0.0.1:23 [DEFAULT via TCP]
       data collected            Mon, 27 Jun 2016 15:07:49
 
-For bonus points, hit the web UI at http://<hostname>:2812, log in with the credentials you specified in the config file and you'll see the same information with the addition of some control buttons. Test them out!
+For bonus points, hit the web UI at http://computer-hostname:2812, log in with the credentials you specified in the config file and you'll see the same information with the addition of some control buttons. Test them out!
 
 ...and that's pretty much it. Easy!
 
