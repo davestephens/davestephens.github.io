@@ -14,7 +14,7 @@ If you're not into reading long resumes, read the following few bullets for a wh
 * Deployment and configuration management with Ansible.
 * Scripting with Bash, Powershell, Batch.
 * Development with Ruby, Ruby on Rails. Hacking on anything else thrown my way. 
-* Monitoring servers and applications with tools such as Collectd, Graphite, Splunk, Monit, Consul, Nagios.
+* Monitoring servers and applications with tools such as Collectd, Graphite/Grafana, InfluxDB, Splunk, Monit, Consul, Nagios.
 * CI with TeamCity, version control with Git, SVN, Stash, Github Enterprise.
 * Multi-region team management, including hiring, performance reviews, objective setting, workforce reduction
 
@@ -33,7 +33,7 @@ I run DevOps (i.e. "Getting Stuff Done") for the Equities Risk division.
 * Physically located within an Agile dev team - involved in multiple daily team standups, production issues, 
 iteration planning. Work closely with devs and operations teams to attempt to break down traditional banking “siloed”
  roles.
-* Monitoring and capacity analysis using Collectd, Graphite, Graphana, Monit, Nagios. Built relevant dashboards to 
+* Monitoring and capacity analysis using Collectd, Graphite, Grafana, Monit, Nagios. Built relevant dashboards to 
 monitor JVM & HTTP based applications. Understand the intricacies between monitoring VMs and physical hardware.
 * Maintenance of deployment scripts in Ruby, deploying to both Linux and Windows hosts. 
 * Performance tweaking of Windows and Linux infrastructure to maximise throughput for JVM & HTTP based applications.
@@ -45,7 +45,7 @@ servers, for purposes of cost reduction, reliability and performance consistency
 * Development of automated deployment tool for dev, UAT and production environments using Teamcity and Ansible. 
 Allows new services to be deployed and released simply by developers including an Ansible playbook within a build package. 
 * Development of a service “baseline”, consisting of a repeatable set of tools for use by new services; Ansible 
-for deployment, Collectd and Graphite/Graphana for metrics, Splunk for log collection, Nagios/Monit for monitoring 
+for deployment, Collectd and Graphite/Grafana for metrics, Splunk for log collection, Nagios/Monit for monitoring 
 and Consul for service discovery.
 
 
