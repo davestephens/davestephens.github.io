@@ -4,8 +4,7 @@ title: CV
 permalink: /cv/
 ---
 
-I've worked in the financial services industry most of my career, with companies such as Goldman Sachs and more recently 
-Credit Suisse. Putting it simply, I specialise in getting stuff done. I sit right in the middle of a bunch of agile
+I've worked in the financial services industry most of my career, with companies such as Goldman Sachs, Credit Suisse and more recently Man Group. Putting it simply, I specialise in getting stuff done. I sit right in the middle of a bunch of agile
 development teams, and I help them to get their _own_ stuff done quicker and better than they could if I wasn't there. 
 
 If you're not into reading long resumes, read the following few bullets for a whistle-stop tour of what I'm good at:
@@ -14,18 +13,31 @@ If you're not into reading long resumes, read the following few bullets for a wh
 * Deployment and configuration management with Ansible.
 * Scripting with Bash, Powershell, Batch.
 * Development with Ruby, Ruby on Rails. Hacking on anything else thrown my way. 
-* Monitoring servers and applications with tools such as Collectd, Graphite/Grafana, InfluxDB, Splunk, Monit, Consul, Nagios.
-* CI with TeamCity, version control with Git, SVN, Stash, Github Enterprise.
+* Monitoring servers and applications with tools such as InfluxDB, Telegraf, Chrongraf, Kapacitor, Sensu, Collectd, Grafana, Splunk, Monit, Consul, Nagios.
+* CI with TeamCity, version control with Git, SVN, Bitbucket Server, Github Enterprise.
 * Multi-region team management, including hiring, performance reviews, objective setting, workforce reduction
 
 You can download the full version [here][cv].
 
 # Employment History
 
-## Credit Suisse - January 2015 - present
+## Man Group - September 2016 - Present
+
+### DevOps Engineer
+
+Specialising in all things that make developers lives easier:
+
+* Deployment of the InfluxData "TICK" stack - Telegraf, InfluxDB, Chronograf and Kapacitor along with Grafana - allows developers and support teams insight into the state of infrastructure and the applications running upon them. Worked with lead developers to assist them in creating dashboards useful to the development teams. 
+* Development and deployment of a ChatOps bot (based on GitHub's Hubot), giving developers easy access to the deployment status of their applications from within HipChat chat rooms. The bot interfaced directly with an Octopus deployment server, as well as queried InfluxDB for application service status. It was also hooked into the api.ai natural language processing service, allowing the processing of natural language queries for bot functionality.
+* Designed the deployment architecture for deployment to Linux boxes (with no root access) from the existing deployment solution (Octopus), as well as via Ansible. 
+* Drove open source contribution by creating the Man DevOps GitHub page, publishing development that'd be useful to the community.
+* Devised an automated software versioning and deployment strategy utilising Git, GitFlow, TeamCity and GitVersion. Worked with development teams to migrate from SVN and onto the solution. Assisted developers with migration from SVN to Git. 
+* Build of high-availability monitoring and alerting stack with Sensu. Alerts funnelled through to Alerta for de-duplication before being delivered to stakeholders ChatOps-style into HipChat rooms.
+
+## Credit Suisse - January 2015 - September 2016
 
 ### Vice President, Platform & DevOps Engineer, Equities Risk
-I run DevOps (i.e. "Getting Stuff Done") for the Equities Risk division. 
+I ran DevOps (i.e. "Getting Stuff Done") for the Equities Risk division. 
 
 * Management of a 1000+ server estate consisting of both physical and virtual servers, split approximately 85% Linux,
  15% Windows.
