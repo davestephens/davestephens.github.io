@@ -20,4 +20,4 @@ Many people have absolutely no idea what a Bulletin Board System is. A BBS is pr
 
 If you're keen to find out more, then log in and have a look around...ironically all you need is a web browser.
 
-[Log in to force9 BBS](http://bbs.force9.org)
+[Log in to force9 BBS](https://bbs.force9.org)
