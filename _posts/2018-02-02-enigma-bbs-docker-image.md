@@ -2,7 +2,6 @@
 layout: post
 title:  "ENiGMA½ BBS Docker Image"
 date:   2018-02-02 00:00
-categories: enigma-bbs bbs docker 
 --- 
 I'm a big fan of the [open source BBS software](http://enigma-bbs.github.io) ENiGMA½ BBS and have been using it to run 
 [fORCE9 BBS](https://bbs.force9.org) for about a year and a half. The project is great - run by [Bryan Ashby](https://l33t.codes/) I've 
