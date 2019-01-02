@@ -3,7 +3,7 @@ layout: post
 title:  "An Update On Ansible-NAS"
 date:   2019-01-02 00:00
 ---
-It's been over a year since I last wrote about Ansible-NAS, and a lot has changed since then. Most notably, people are actually using and contributing to the project. For something that I started to solve a problem of my own, this is awesome! It would appear that I'm not alone in finding FreeNAS a massive overkill for a home server setup, or in wanting to build my own server rather than buying an off-the-shelf product.
+Its been over a year since I last wrote about Ansible-NAS, and a lot has changed since then. Most notably, people are actually using and contributing to the project. For something that I started to solve a problem of my own, this is awesome! It would appear that I'm not alone in finding FreeNAS a massive overkill for a home server setup, or in wanting to build my own server rather than buying an off-the-shelf product.
 
 Some of the more notable changes:
 
