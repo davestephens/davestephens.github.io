@@ -1,21 +1,22 @@
 # Site settings
 title: David Stephens
-tagline: 'English technologist living in London.'
+tagline: 'British technologist living in London.'
 email: dave@davidstephens.uk
 description: 'Personal site of David Stephens, a British technologist living in London.'
 baseurl: ""
 url: "http://davidstephens.uk"
 
 author:
-  name:           'David Stephens'
-  url:            https://twitter.com/davestephens
+  name: 'David Stephens'
+  url: https://github.com/DaveStephens
 
 # Build settings
 markdown: kramdown
 permalink: pretty
 
-paginate:         5
+paginate: 5
 
-gems:
+plugins:
   - jekyll-sitemap
+  - jekyll-paginate
 
