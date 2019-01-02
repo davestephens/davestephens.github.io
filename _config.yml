@@ -14,7 +14,7 @@ author:
 markdown: kramdown
 permalink: pretty
 
-paginate: 5
+paginate: 10
 
 plugins:
   - jekyll-sitemap
