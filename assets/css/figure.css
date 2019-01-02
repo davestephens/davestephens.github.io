@@ -1,0 +1,13 @@
+figure {
+    position: relative;
+    margin: 1.5em 0;
+    border-bottom: 1px dotted #999999;
+}
+
+figcaption {
+    clear: left;
+    margin: .75em 0;
+    text-align: center;
+    font-style: italic;
+    line-height: 1.5em;
+}
