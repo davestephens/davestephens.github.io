@@ -11,7 +11,7 @@ into easy to install plugins, such as Transmission for downloading torrents and 
 I developed a backup plugin that needed to do compression and encryption - then the CPU started to show its age. 
 
 Some point in 2011 I upgraded to an HP Microserver running FreeNAS 8. FreeNAS also had a plugin architecture using FreeBSD jails 
-(essentially small virtualised environments for applications to run in), so I could install the software I'd used previously as well as 
+(essentially small chrooted environments for applications to run in), so I could install the software I'd used previously as well as 
 some cool new things - Crashplan, Plex, etc. 
 
 This ticked along nicely for a few years until I had a disk failure. I should have heard alarm bells ringing when the second-top Google 
@@ -27,7 +27,7 @@ USB stick and loaded it on. Thankfully it was reasonably trivial to import my da
 Then I tried to reboot it.....and waited. And waited. Hmmm. Must be a one off. Power off, try again...another hang. 
 Try again...wait...and eventually it came online and everything seemed ok. Unfortunately (for me), within a few days FreeNAS Corral 
 started to show its immaturity - the web UI would become unresponsive, it'd randomly drop off the network, 
-the reboot instability continued, and the CPU would get mashed when it was seemingly sat there idle. Then...THEN, the clowns at 
+the reboot instability continued, and the CPU would get mashed when it was seemingly sat there idle. Then...THEN, the guys at 
 iXSystems decided that [FreeNAS Corral wasn't a real release after all](https://www.theregister.co.uk/2017/04/18/freenas_downgrades_latest_release_to_tech_preview/), 
 but it was actually a "tech preview". Wait, what?
 
